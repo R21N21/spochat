@@ -1,0 +1,40 @@
+// Place all the styles related to the messages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+.wrapper {
+  display: flex;
+}
+
+.sidebar {
+  background-color: #060b50;
+  width: 15%;
+  height: calc(100vh - 60px);
+  padding: 0 20px;
+  overflow: scroll;
+}
+
+.room {
+  padding: 20px 0 40px;
+}
+
+.room-name a {
+  text-decoration: none;
+  color: white;
+}
+
+.chat {
+  background-color: #FFFFFF;
+  width: 85%;
+}
+
+.messages {
+  background-color: #FAFAFA;
+  height: calc(100vh - 60px - 70px);
+  padding: 0 20px;
+}
+.form {
+  background-color: #DDDDDD;
+  height: 70px;
+}
