@@ -1,0 +1,72 @@
+* {
+  box-sizing: border-box;
+}
+
+.header-wrapper {
+  width: 100vw;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+}
+
+.heading-contents {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.spochat-logo {
+  width: 18vw;
+  margin-top: 15px;
+}
+
+.create-room{
+  font-size: 20px;
+  margin-left: 100px;
+  padding: 15px;
+}
+
+.create-room-name{
+  color: black;
+  text-decoration: none;
+
+}
+
+.nav {
+  font-size: 18px;
+  display: flex;
+  justify-content: space-between;
+  width: auto;
+  padding: 1vh 0;
+}
+
+.lists {
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+
+.user-name {
+  text-decoration: none;
+  margin-right: 3vw;
+  color: #333333;
+  font-weight: bold;
+}
+
+.logout {
+  text-decoration: none;
+  color: #333333;
+}
+
+.login {
+  text-decoration: none;
+  line-height: 32px;
+  margin-right: 3vw;
+  color: #333333;
+}
+
+.sign-up {
+  text-decoration: none;
+  color: #333333;
+}
