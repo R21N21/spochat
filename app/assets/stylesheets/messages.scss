@@ -8,10 +8,20 @@
 }
 
 .sidebar {
-  background-color: #f0c07d;
+  background-color: #060b50;
   width: 15%;
   height: calc(100vh - 60px);
   padding: 0 20px;
+  overflow: scroll;
+}
+
+.room {
+  padding: 20px 0 40px;
+}
+
+.room-name a {
+  text-decoration: none;
+  color: white;
 }
 
 .chat {
