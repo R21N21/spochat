@@ -3,3 +3,28 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 
+.wrapper {
+  display: flex;
+}
+
+.sidebar {
+  background-color: #f0c07d;
+  width: 15%;
+  height: calc(100vh - 60px);
+  padding: 0 20px;
+}
+
+.chat {
+  background-color: #FFFFFF;
+  width: 85%;
+}
+
+.messages {
+  background-color: #FAFAFA;
+  height: calc(100vh - 60px - 70px);
+  padding: 0 20px;
+}
+.form {
+  background-color: #DDDDDD;
+  height: 70px;
+}
