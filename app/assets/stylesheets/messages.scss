@@ -37,4 +37,45 @@
 .form {
   background-color: #DDDDDD;
   height: 70px;
+  display: flex;
+}
+
+.form-input {
+  background-color: white;
+  width: 100%;
+  margin: 15px 5px;
+  display: flex;
+}
+
+.form-message {
+  border: none;
+  height: 40px;
+  width: 100%;
+  padding-left: 10px;
+  border-radius: 5px;
+}
+
+.form-submit {
+  background-color: #15a0f0;
+  border: none;
+  color: white;
+  font-size: 16px;
+  height: 40px;
+  margin: 15px 5px;
+  border-radius: 8px;
+}
+
+.form-image {
+  font-size: 12px;
+  background-color: lightblue;
+  color: white;
+  padding: 10px;
+  width: 50px;
+  margin: 4px 10px;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.hidden {
+  display: none;
 }
