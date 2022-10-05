@@ -15,13 +15,13 @@
     <div class='form-text-wrap'>
       <label class="form-text">ニックネーム</label>
     </div>
-    <%= f.text_field :name, class:"input-default", id:"name", placeholder:"12文字以下のニックネーム", maxlength:"12" %>
+    <%= f.text_field :name, class:"input-default", id:"name", autofocus: true, placeholder:"12文字以下のニックネーム", maxlength:"12" %>
   </div>
   <div class="form-group">
     <div class='form-text-wrap'>
       <label class="form-text">メールアドレス</label>
     </div>
-    <%= f.email_field :email, class:"input-default", id:"email", placeholder:"PC・携帯どちらでも可", autofocus: true %>
+    <%= f.email_field :email, class:"input-default", id:"email", placeholder:"PC・携帯どちらでも可" %>
   </div>
   <div class="form-group">
     <div class='form-text-wrap'>
