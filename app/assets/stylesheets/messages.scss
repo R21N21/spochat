@@ -29,9 +29,34 @@
   width: 85%;
 }
 
+.chat-header {
+  height: 50px;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-title {
+  font-size: 20px;
+  color: #333;
+  margin-top: 17px;
+}
+
+.header-button {
+  margin-top: 17px;
+}
+
+.header-button a {
+  color: darkred;
+  border: 1px solid darkred;
+  padding: 5px;
+  text-decoration: none;
+  border-radius: 15px;
+}
+
 .messages {
   background-color: #FAFAFA;
-  height: calc(100vh - 60px - 70px);
+  height: calc(100vh - 60px - 70px - 50px);
   padding: 0 20px;
 }
 .form {
