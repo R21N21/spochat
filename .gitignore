@@ -29,3 +29,5 @@
 /yarn-error.log
 yarn-debug.log*
 .yarn-integrity
+app/views/devise/unlocks/new.html.erb
+app/views/devise/unlocks/new.html.erb

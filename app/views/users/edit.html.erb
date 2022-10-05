@@ -1,0 +1,35 @@
+<%= render "shared/second-header"%>
+
+<%= form_with model: @user, class: 'registration-main', local: true do |f|%>
+<div class="form-wrap">
+  <div class='form-header'>
+    <h1 class='form-header-text'>
+      アカウント編集
+    </h1>
+  </div>
+
+  <div class="form-group">
+    <div class='form-text-wrap'>
+      <label class="form-text">ニックネーム</label>
+    </div>
+    <%= f.text_field :name, class:"input-default", id:"name", placeholder:"12文字以下のニックネーム", maxlength:"12" %>
+  </div>
+  <div class="form-group">
+    <div class='form-text-wrap'>
+      <label class="form-text">メールアドレス</label>
+    </div>
+    <%= f.email_field :email, class:"input-default", id:"email", placeholder:"PC・携帯どちらでも可", autofocus: true %>
+  </div>
+  <div class='actions'>
+    <%= f.submit "更新", class: 'update-red-btn'%>
+  </div>
+  <div class='edit-menu'>
+    <div class='logout-btn'>
+      <%= link_to "ログアウト", destroy_user_session_path, method: :delete, class: 'btn'%>
+    </div>
+    <div class='chatpage-btn'>
+      <%= link_to "チャットページに戻る", root_path, class: 'btn'%>
+    </div>
+  </div>
+</div>
+<% end %>
