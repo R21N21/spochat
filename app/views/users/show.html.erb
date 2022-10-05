@@ -1,0 +1,30 @@
+<%= render "shared/second-header"%>
+
+<div class='registration-main'>
+  <div class='form-wrap'>
+    <div class='form-header'>
+      <h1 class='form-header-text'>
+        アカウント編集
+      </h1>
+    </div>
+  
+    <div class='user-group'>
+      <div class='user-text-wrap'>
+        <h2 class='show-user-name'><%= @user.name %></h2>
+      </div>
+    </div>
+    <div class='user-menu'>
+      <div class='user-edit-btn'>
+        <%= link_to "アカウント情報を編集する", edit_user_path(current_user), class: 'btn'%>
+      </div>
+      <div class='chatpage-btn'>
+        <%= link_to "チャットページに戻る", root_path, class: 'btn'%>
+      </div>
+    </div>
+    <div class='user-logout-box'>
+      <div class='logout-btn'>
+        <%= link_to "ログアウト", destroy_user_session_path, method: :delete, class: 'btn'%>
+      </div>
+    </div>
+  </div>
+</div>
