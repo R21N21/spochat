@@ -5,6 +5,10 @@ ja:
         name: ニックネーム
       room:
         name: ルーム名
+      message:
+        content: メッセージ
+        room: ルーム
+        user: ユーザー
         
   time:
     formats:
