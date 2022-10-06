@@ -2,4 +2,14 @@ ja:
   activerecord:
     attributes:
       user:
+<<<<<<< Updated upstream
         name: ニックネーム
+=======
+        name: ニックネーム
+      room:
+        name: ルーム名
+        
+  time:
+    formats:
+      default: "%Y/%m/%d %H:%M:%S"
+>>>>>>> Stashed changes
