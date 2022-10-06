@@ -3,15 +3,12 @@ ja:
     attributes:
       user:
         name: ニックネーム
-<<<<<<< Updated upstream
-=======
       room:
         name: ルーム名
       message:
         content: メッセージ
         room: ルーム
         user: ユーザー
->>>>>>> Stashed changes
         
   time:
     formats:
