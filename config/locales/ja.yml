@@ -3,6 +3,8 @@ ja:
     attributes:
       user:
         name: ニックネーム
+      room:
+        name: ルーム名
         
   time:
     formats:
