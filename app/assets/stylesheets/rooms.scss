@@ -27,6 +27,15 @@ li {
   font-size: 13px;
 }
 
+.room-main {
+  width: 100%;
+  min-width: 800px;
+  height: calc(100vh - 100px);
+  background-color: #d38585;
+  display: flex;
+  justify-content: center;
+}
+
 .chat-room-form {
   width: 980px;
   margin: 60px auto;

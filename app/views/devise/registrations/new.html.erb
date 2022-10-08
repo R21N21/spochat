@@ -38,6 +38,8 @@
   <div class='register-btn'>
     <%= f.submit "アカウント登録" ,class:"register-red-btn" %>
   </div>
-
+  <div class='session-btn'>
+    <%= link_to 'ログイン', new_user_session_path, class: "login" %>
+  </div>
 </div>
 <% end %>
