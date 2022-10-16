@@ -124,7 +124,7 @@ basic認証パスワード 1111
 
 ・使用言語、ツール  
 サーバーサイド: Ruby,Ruby on Rails  
-フロント: HTML,CSS  
+フロント: HTML,CSS,javascript  
 データベース: MySQL  
 コード管理: Github  
 インフラ: Heroku  
