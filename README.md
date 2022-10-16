@@ -1,28 +1,71 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# アプリケーション名
+spochat
 
-Things you may want to cover:
+# アプリケーション概要
+サッカーファンが身近なファンだけではなく、面識のないファンともチャットで気軽に交流できる。
 
-* Ruby version
+# URL
+https://spochat.herokuapp.com/
 
-* System dependencies
+# テスト用アカウント
+basic認証ユーザー名 38391
+basic認証パスワード 1111
+メールアドレス test@test.com
+パスワード aaa111
 
-* Configuration
+# 利用方法
 
-* Database creation
+## ユーザー管理機能
+・spochatにアクセスすると初めにログインを促すようにしました。
+・ログインまたは新規登録をします。
+・ヘッダーの名前をクリックするとアカウント詳細ページへ遷移します。
+・詳細ページにはアカウント編集ボタンからニックネーム等の編集が可能です。
+・ログアウトを押すとログアウトができます。
 
-* Database initialization
+## チャットルーム管理機能
+・ヘッダーのルーム作成ボタンからルーム作成ができます。
+・左側のサイドバーからチャットルームを選択できます。
+・チャットルーム内のチャットルーム削除ボタンでチャットルームの削除が行えます。
 
-* How to run the test suite
+## メッセージ送信機能
+・チャットルームを選択し、下部のフォームからメッセージと画像の送信が行えます。
 
-* Services (job queues, cache servers, search engines, etc.)
+# アプリケーションを作成した背景
+サッカー観戦が趣味でよく友人とサッカーの話題で盛り上がりますが、身近な友人だけではなく、面識のないサッカーファンともチャットで気軽に交流できたら面白いと思い、チャットアプリを開発することにしました。
 
-* Deployment instructions
+# 洗い出した要件
+[要件定義をしたスプレッドシート](https://docs.google.com/spreadsheets/d/1tYsK3Ak5d2NHskY4ThXBPWRgOCVC5vKnjkkv4WiFtGE/edit#gid=982722306)
 
-* ...
+# 実装した機能についての画像やGIFおよびその説明
+![画像](https://gyazo.com/8e2d9ce4de926959e2c7542d125fdf50)
+トップページ上部の名前からアカウント詳細ページへ遷移することができ、アカウント情報の編集ができます。
 
+![画像](https://gyazo.com/329465df862fc3df7375b71e6bbda530)
+トップページヘッダーの「ルーム作成」を押すとルーム作成ページへ遷移し、チャット名、メンバーを選択することでチャットルームを作成できます。
+
+![画像](https://gyazo.com/9aa6addecb9f517366dc1e5dbed9206c)
+チャットルーム下部のフォームよりメッセージと画像の投稿が行えます。
+メッセージ、画像どちらかが入力されていれば送信することができます。
+
+![画像](https://gyazo.com/2091eb2a1cfb04cfdc14cc28f762c4cb)
+チャットルーム内右上にある削除ボタンを押すことでチャットルームの削除が行えます。
+
+
+
+# 実装予定の機能
+・画像をAWSのS3へ保存する
+・AWSのEC2でデプロイ
+・チャットルーム検索機能
+・サッカーの試合日程等の表示
+・チャットルームに複数人が入室できる
+
+# データベース設計	
+![ER図の画像](https://gyazo.com/f430c6047b20899b959fe683430167b1)
+
+# 画面遷移図
+![画面遷移図](https://gyazo.com/f90af24ec87bde0269f714fec3089dfe)
 
 # テーブル設計
 
@@ -76,3 +119,15 @@ Things you may want to cover:
 
 - belongs_to :room
 - belongs_to :user
+
+# 使用技術
+
+・使用言語、ツール
+サーバーサイド: Ruby,Ruby on Rails
+フロント: HTML,CSS
+データベース: MySQL
+コード管理: Github
+インフラ: Heroku
+
+# 工夫したポイント
+・チャットページ、トップページからルーム作成ページ、アカウントページに遷移しやすいようにヘッダーに遷移できるボタンを用意しました。
