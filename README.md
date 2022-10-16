@@ -52,6 +52,9 @@ basic認証パスワード 1111
 [![Image from Gyazo](https://i.gyazo.com/2091eb2a1cfb04cfdc14cc28f762c4cb.gif)](https://gyazo.com/2091eb2a1cfb04cfdc14cc28f762c4cb)  
 チャットルーム内右上にある削除ボタンを押すことでチャットルームの削除が行えます。  
 
+[![Image from Gyazo](https://i.gyazo.com/b1b990bee0023dd953a5f4e2e0cf4e9d.gif)](https://gyazo.com/b1b990bee0023dd953a5f4e2e0cf4e9d)  
+ヘッダーのサッカーメディアをクリックすると情報サイトへのリンクのリストが表示されます。  
+リンクをクリックすると情報サイトが別タブに表示されます。
 
 
 # 実装予定の機能
