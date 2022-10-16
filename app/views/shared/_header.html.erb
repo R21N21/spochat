@@ -2,10 +2,22 @@
   <div class='heading-contents'>
     <%= link_to image_tag("spochat_logo.png", class:"spochat-logo"), "/" %>
     <div class='room-menu'>
-      <ul class='room-lists'>
-        <li><%= link_to "ルーム作成", new_room_path, class: "room-create" %></li>
-      </ul>
+      <div class='room-lists'>
+        <%= link_to "ルーム作成", new_room_path, class: "room-create" %>
+      </div>
    </div>
+  </div>
+
+  <div class="navbar">
+    <ul class="nav-lists">
+      <li class="list-title" id= "lists"><p>サッカーメディア</p></li>
+    </ul>
+    <ul class="show-lists hidden" id="pull-down">
+      <li><%= link_to "Goal.com", "https://www.goal.com/jp", target: :_blank, rel: "noopener noreferrer", class:"media-link" %></li>
+      <li><%= link_to "UEFA.com", "https://www.uefa.com/", target: :_blank, rel: "noopener noreferrer", class:"media-link" %></li>
+      <li><%= link_to "サッカーキング", "https://www.soccer-king.jp/", target: :_blank, rel: "noopener noreferrer", class:"media-link" %></li>
+      <li><%= link_to "スポーツナビ", "https://sports.yahoo.co.jp/", target: :_blank, rel: "noopener noreferrer", class:"media-link" %></li>
+    </ul>
   </div>
 
   

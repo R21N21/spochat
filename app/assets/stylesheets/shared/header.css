@@ -18,14 +18,44 @@
 }
 
 .room-menu{
-  margin-left: 300px;
+  margin-left: 200px;
   padding: 15px;
+  display: flex;
 }
 
 .room-lists {
   display: flex;
   list-style: none;
   align-items: center;
+}
+
+.list-title {
+  color: white;
+  font-size: 17px;
+  cursor: pointer;
+}
+
+.show-lists{
+  width: 200px;
+  position: absolute;
+  right: 600px;
+  top: 65px;
+  background-color: black;
+}
+
+li {
+  list-style: none;
+  padding: 20px;
+  font-size: 17px;
+}
+
+.media-link {
+  color: white;
+  text-decoration: none;
+}
+
+.hidden{
+  display: none;
 }
 
 .room-create {
