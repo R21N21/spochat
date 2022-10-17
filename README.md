@@ -128,6 +128,7 @@ basic認証パスワード 1111
 サーバーサイド: Ruby,Ruby on Rails  
 フロント: HTML,CSS,javascript  
 データベース: MySQL  
+テストツール: RSpec
 コード管理: Github  
 インフラ: Heroku,S3
 
